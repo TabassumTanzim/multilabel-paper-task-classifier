@@ -24,3 +24,4 @@ The compressed model is deployed to HuggingFace Spaces Gradio App. The implement
 
 ## Web Deployement:
 Deployed a flask app built for users to provide **abstract** as input and to get **tasks** as output. You can check the `flask` branch. The website is live [here](https://multilabel-paper-task-classifier.onrender.com)
+<img width="1140" alt="image" src="https://github.com/TabassumTanzim/multilabel-paper-task-classifier/assets/75922668/679308b1-ec32-4249-a85c-ec1e80df1dce">
