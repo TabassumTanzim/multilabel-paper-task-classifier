@@ -21,3 +21,6 @@ The model that underwent training has a memory size of 314+MB. I compressed this
 The compressed model is deployed to HuggingFace Spaces Gradio App. The implementation can be found in deployment folder or [here](https://huggingface.co/spaces/Tabas34/paper_classifier)
 
 <img width="1188" alt="image" src="https://github.com/TabassumTanzim/multilabel-paper-task-classifier/assets/75922668/5f5eccb0-fb7c-41e6-8ff6-6bc9df61750b">
+
+## Web Deployement:
+Deployed a flask app built for users to provide **abstract** as input and to get **tasks** as output. You can check the `flask` branch. The website is live [here](https://multilabel-paper-task-classifier.onrender.com)
