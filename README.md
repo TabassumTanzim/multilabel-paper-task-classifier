@@ -12,7 +12,7 @@ In total `26778 paper details` have been scraped.
 At first, there were 2397 different tasks in the dataset. After looking closely, I found that 2139 of them were tasks. So, I removed those tasks, leaving 258 tasks. Then, I got rid of the abstracts without any task, and that left me with 26628 samples.
 
 ## Model Training
-I fine-tuned a `distilroberta-base` model from HuggingFace Transformers using Fastai and Blurr. You can check out the notebook for the model training [here](notebooks/multilabel_text_classification.ipynb).
+I fine-tuned a `distilroberta-base` model from HuggingFace Transformers using Fastai and Blurr. You can check out the notebook for the model training [here](notebooks/multilabel2.ipynb).
 
 ## Model Compression and ONNX Inference
 The model that underwent training has a memory size of 314+MB. I compressed this model using ONNX quantization and reduced its size to below 83MB.
