@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <style>
+            .head{
+                display : flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                height: 5ch;
+            }
+            .center{
+                display : flex;
+                justify-content: center;
+                align-items: center;
+                height: 50vh;
+                font-size: 25px;
+            }
+            form{
+                height: 500px;
+                width: 1000px;
+                background-color: aquamarine;
+                padding: 20px;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            #text{
+                height: 100px;
+                width: 500px;
+                font-size: 20px;
+            }
+            #textarea{
+                height: 5%;
+                width: 500px;
+                font-size: 20px;
+    
+            }
+            input{
+                font-size: 25px;
+                padding: 10px;
+            }
+        </style>
+        <div class ="head">
+            <b>Paper Task Classifier </b>
+        </div>
+    </head>
+
+    <body>
+    
+        <div class="center">
+            <div style="height: 100px; width: 1000px;">
+                <label for="text"> <b>Input Text </b> </label><br />
+                {{ input_text }} <br /> <br />
+                <label for="text"> <b> Tasks </b> </label><br />
+                {{ output_text }}
+            </div>
+    
+        </div>
+    
+    </body>
+
+</html>
