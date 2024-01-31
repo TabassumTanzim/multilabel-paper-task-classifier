@@ -1,5 +1,5 @@
 # MultiLabel-Paper-Task-Classifier
-A text classification model built from scatch consisting of data collection, model training and deployement. The model can classify 238 tasks enlisted [here](deployment/task_types_encoded.json)
+A text classification model built from scatch consisting of data collection, model training and deployement. The model can classify 258 tasks enlisted [here](deployment/task_types_encoded.json)
 
 ## Data Collection
 Data extraction began by retrieving information from **[papers with code](https://paperswithcode.com/sota)** in two steps. The initial step involved obtaining paper URLs, which led to the formation of [paper_urls](scaper/paper_urls.csv) dataset comprising paper titles and their corresponding links with [paper_url.ipynb](scaper/paper_url.ipynb)
